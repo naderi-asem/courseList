@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.badge {
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px;
+}
+
+.badge--primary {
+    background-color: hsla(120, 87%, 65%, 0.93);
+    color: #ffffff;
+    text-shadow: 0 0 2px #000;
+}
+
+.badge--secondary {
+    background-color: #ffffff;
+    color: #8a2be2;
+}
+
+.badge--danger {
+    background-color: #e44343e4;
+    color: #fff;
+    text-shadow: 0 0 1px #000000;
+
+}
+
+.badge--third {
+    background-color: #8a2be2;
+    color: #fff;
+    text-shadow: 0 0 1px #000000;
+}
